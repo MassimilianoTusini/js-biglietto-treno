@@ -4,16 +4,14 @@ const distance = parseInt(prompt("Quanti chilometri vuoi percorrere?"));
 
 //prezzo normale del biglietto
 let price = (distance * 0.21);
-let finalPrice
+
 //Prezzi scontati
  if (age < 18) {
-     finalPrice = price * 0.80
+     price = price * 0.80
  } if (age > 65) {
-     finalPrice = price * 0.60
- } else {
-    finalPrice = price
+     price = price * 0.60
  }
 
-console.log(finalPrice.toFixed(2))
+console.log(price.toFixed(2))
  
  
