@@ -2,8 +2,6 @@
 const age = parseInt(prompt("Quanti anni hai?"));
 const distance = parseInt(prompt("Quanti chilometri vuoi percorrere?"));
 
-console.log(age, distance);
-
 //prezzo normale del biglietto
 let price = (distance * 0.21);
 
