@@ -12,6 +12,8 @@ let price = (distance * 0.21);
      finalPrice = price * 0.80
  } if (age > 65) {
      finalPrice = price * 0.60
+ } else {
+    finalPrice = price
  }
 
 console.log(finalPrice.toFixed(2))
