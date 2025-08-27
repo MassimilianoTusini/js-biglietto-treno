@@ -1,7 +1,19 @@
-//Chiedere erà e km da percorrere
+//Chiedere età e km da percorrere
 const age = parseInt(prompt("Quanti anni hai?"));
-const distance = parseInt( prompt("Quanti chilometri vuoi percorrere?"));
+const distance = parseInt(prompt("Quanti chilometri vuoi percorrere?"));
 
 console.log(age, distance);
 
+//prezzo normale del biglietto
+let price = (distance * 0.21);
 
+//Prezzi scontati
+ if (age < 18) {
+     finalPrice = price * 0.80
+ } if (age > 65) {
+     finalPrice = price * 0.60
+ }
+
+console.log(finalPrice.toFixed(2))
+ 
+ 
