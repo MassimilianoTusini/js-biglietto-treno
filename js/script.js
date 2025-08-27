@@ -13,5 +13,3 @@ let price = (distance * 0.21);
  }
 
 console.log(price.toFixed(2))
- 
- 
